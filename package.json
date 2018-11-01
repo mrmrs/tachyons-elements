@@ -1,0 +1,28 @@
+{
+  "name": "tachyons-elements",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.13.1",
+    "kit": "^1.0.26",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.0",
+    "styled-system": "^3.1.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "docs": "kit src/elements --mode library"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
